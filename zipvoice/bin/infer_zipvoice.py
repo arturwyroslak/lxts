@@ -153,7 +153,7 @@ def get_parser():
     parser.add_argument(
         "--lang",
         type=str,
-        default="en-us",
+        default="pl",
         help="Language identifier, used when tokenizer type is espeak. see"
         "https://github.com/rhasspy/espeak-ng/blob/master/docs/languages.md",
     )
