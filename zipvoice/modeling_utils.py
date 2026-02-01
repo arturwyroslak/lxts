@@ -40,7 +40,7 @@ class LuxTTSConfig:
 
     # Tokenizer & Language
     tokenizer: str = "emilia"  # choices: ["emilia", "libritts", "espeak", "simple"]
-    lang: str = "en-us"
+    lang: str = "pl"
 
 
 @torch.inference_mode
